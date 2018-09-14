@@ -221,12 +221,11 @@ func newBlockManager(s *ChainService) (*blockManager, error) {
 
 	// Finally, we'll set the filter header tip so any goroutines waiting
 	// on the condition obtain the correct initial state.
-	filterHeaderTipHash, filterHeaderTip, err := s.RegFilterHeaders.ChainTip()
+	_, bm.filterHeaderTip, err = s.RegFilterHeaders.ChainTip()
 	if err != nil {
 		return nil, err
 	}
-	bm.filterHeaderTipHash = *filterHeaderTipHash
-	bm.filterHeaderTip = filterHeaderTip
+	bm.filterHeaderTipHash = header.BlockHash()
 
 	return &bm, nil
 }
