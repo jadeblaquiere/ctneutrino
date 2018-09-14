@@ -29,7 +29,7 @@ import (
 	"github.com/jadeblaquiere/cttwallet/wallet/txauthor"
 	"github.com/jadeblaquiere/cttwallet/walletdb"
 	_ "github.com/jadeblaquiere/cttwallet/walletdb/bdb"
-	"github.com/jadeblaquiere/neutrino"
+	"github.com/jadeblaquiere/ctneutrino"
 )
 
 var (

@@ -22,9 +22,9 @@ import (
 	"github.com/jadeblaquiere/cttutil"
 	"github.com/jadeblaquiere/cttwallet/waddrmgr"
 	"github.com/jadeblaquiere/cttwallet/walletdb"
-	"github.com/jadeblaquiere/neutrino/cache/lru"
-	"github.com/jadeblaquiere/neutrino/filterdb"
-	"github.com/jadeblaquiere/neutrino/headerfs"
+	"github.com/jadeblaquiere/ctneutrino/cache/lru"
+	"github.com/jadeblaquiere/ctneutrino/filterdb"
+	"github.com/jadeblaquiere/ctneutrino/headerfs"
 )
 
 // These are exported variables so they can be changed by users.

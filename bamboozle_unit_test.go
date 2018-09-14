@@ -12,7 +12,7 @@ import (
 	"github.com/jadeblaquiere/cttutil/gcs"
 	"github.com/jadeblaquiere/cttutil/gcs/builder"
 	"github.com/jadeblaquiere/cttwallet/walletdb"
-	"github.com/jadeblaquiere/neutrino/headerfs"
+	"github.com/jadeblaquiere/ctneutrino/headerfs"
 )
 
 func decodeHashNoError(str string) *chainhash.Hash {

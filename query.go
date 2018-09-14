@@ -15,8 +15,8 @@ import (
 	"github.com/jadeblaquiere/cttutil/gcs"
 	"github.com/jadeblaquiere/cttutil/gcs/builder"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/jadeblaquiere/neutrino/cache"
-	"github.com/jadeblaquiere/neutrino/filterdb"
+	"github.com/jadeblaquiere/ctneutrino/cache"
+	"github.com/jadeblaquiere/ctneutrino/filterdb"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/jadeblaquiere/neutrino/cache"
+	"github.com/jadeblaquiere/ctneutrino/cache"
 )
 
 // elementMap is an alias for a map from a generic interface to a list.Element.

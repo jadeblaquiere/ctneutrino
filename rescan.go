@@ -19,7 +19,7 @@ import (
 	"github.com/jadeblaquiere/cttutil/gcs"
 	"github.com/jadeblaquiere/cttutil/gcs/builder"
 	"github.com/jadeblaquiere/cttwallet/waddrmgr"
-	"github.com/jadeblaquiere/neutrino/headerfs"
+	"github.com/jadeblaquiere/ctneutrino/headerfs"
 )
 
 var (

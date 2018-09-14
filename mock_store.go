@@ -7,7 +7,7 @@ import (
 	"github.com/jadeblaquiere/cttd/chaincfg/chainhash"
 	"github.com/jadeblaquiere/cttd/wire"
 	"github.com/jadeblaquiere/cttwallet/waddrmgr"
-	"github.com/jadeblaquiere/neutrino/headerfs"
+	"github.com/jadeblaquiere/ctneutrino/headerfs"
 )
 
 // mockBlockHeaderStore is an implementation of the BlockHeaderStore backed by
