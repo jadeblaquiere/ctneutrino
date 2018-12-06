@@ -262,10 +262,15 @@ func (sp *ServerPeer) OnVersion(_ *peer.Peer, msg *wire.MsgVersion) *wire.MsgRej
 
 		log.Infof("Disconnecting peer %v, cannot serve compact "+
 			"filters", sp)
+<<<<<<< HEAD
 		reason := fmt.Sprintf("Support for compact filters is required")
 		rejectMsg := wire.NewMsgReject(msg.Command(), wire.RejectObsolete,
 			reason)
 		return rejectMsg
+=======
+		sp.Disconnect()
+		return nil
+>>>>>>> neutrino
 	}
 
 	// Signal the block manager this peer is a new sync candidate.
